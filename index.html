@@ -1,0 +1,1079 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Primary Meta Tags -->
+  <title>Godlin R E | Aspiring AI/ML Engineer &amp; B.Tech CSE Student</title>
+  <meta name="title" content="Godlin R E | Aspiring AI/ML Engineer &amp; B.Tech CSE Student">
+  <meta name="description" content="Personal portfolio of Godlin R E, a 2nd-year B.Tech CSE student specializing in Artificial Intelligence &amp; Machine Learning at Jain University, Bengaluru. Passionate about AI, ML, and software development.">
+  <meta name="keywords" content="Godlin R E, AI/ML Engineer, Machine Learning, Artificial Intelligence, Jain University, Bengaluru, B.Tech CSE, Python, Data Structures, Software Developer Portfolio">
+  <meta name="author" content="Godlin R E">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Godlin R E | Aspiring AI/ML Engineer &amp; B.Tech CSE Student">
+  <meta property="og:description" content="Discover projects, technical skills, and academic journey of Godlin R E, B.Tech CSE (AIML) student at Jain University, Bengaluru.">
+  <meta property="og:image" content="assets/ai-avatar.svg">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Godlin R E | Aspiring AI/ML Engineer">
+  <meta name="twitter:description" content="Portfolio of Godlin R E - Specializing in AI/ML &amp; Computer Science at Jain University.">
+  <meta name="twitter:image" content="assets/ai-avatar.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/animations.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <!-- Schema.org JSON-LD Structured Data for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Godlin R E",
+    "jobTitle": "Aspiring AI/ML Engineer",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Jain University, Bengaluru"
+    },
+    "email": "mailto:jazzojazzy288@gmail.com",
+    "knowsAbout": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Python",
+      "Java",
+      "C++",
+      "Data Structures and Algorithms",
+      "Software Development"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Ambient Glowing Radial Gradients -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+  <div class="ambient-glow ambient-glow-3"></div>
+
+  <!-- Interactive HTML5 Canvas (Neural Constellation) -->
+  <canvas id="neuralCanvas"></canvas>
+
+  <div class="page-wrapper">
+
+    <!-- ==========================================
+         STICKY NAVIGATION BAR
+         ========================================== -->
+    <header class="navbar" id="mainNavbar">
+      <div class="container navbar-inner">
+        <!-- Logo / Brand -->
+        <a href="#home" class="nav-brand" aria-label="Godlin R E Home">
+          <div class="nav-logo-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5"></path>
+              <path d="M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <span class="nav-brand-text">Godlin<span style="color: var(--accent-purple);">.</span>dev</span>
+          <span class="nav-brand-badge">AIML</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav aria-label="Primary Navigation">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#goals" class="nav-link">Goals</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Right Action Button -->
+        <div class="nav-actions">
+          <button class="btn btn-secondary btn-sm btn-resume btn-resume-trigger" aria-label="Download Resume">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Resume</span>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    <div class="mobile-nav-drawer" id="mobileNavDrawer">
+      <div>
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+          <span style="font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem; color: #fff;">Navigation</span>
+        </div>
+        <ul class="mobile-nav-links">
+          <li><a href="#home" class="mobile-nav-link"><span>// 00.</span> Home</a></li>
+          <li><a href="#about" class="mobile-nav-link"><span>// 01.</span> About Me</a></li>
+          <li><a href="#education" class="mobile-nav-link"><span>// 02.</span> Education</a></li>
+          <li><a href="#skills" class="mobile-nav-link"><span>// 03.</span> Skills</a></li>
+          <li><a href="#projects" class="mobile-nav-link"><span>// 04.</span> Projects</a></li>
+          <li><a href="#certifications" class="mobile-nav-link"><span>// 05.</span> Certifications</a></li>
+          <li><a href="#goals" class="mobile-nav-link"><span>// 06.</span> Goals</a></li>
+          <li><a href="#contact" class="mobile-nav-link"><span>// 07.</span> Contact</a></li>
+        </ul>
+      </div>
+
+      <div style="padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+        <button class="btn btn-primary btn-resume-trigger" style="width: 100%;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download Resume</span>
+        </button>
+      </div>
+    </div>
+
+    <main>
+      <!-- ==========================================
+           1. HOME / HERO SECTION
+           ========================================== -->
+      <section class="hero-section" id="home">
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Left Hero Content -->
+            <div class="hero-content">
+              <div class="hero-badge-wrapper">
+                <span class="status-badge">
+                  <span class="status-dot"></span>
+                  <span>Second-Year Undergrad &bull; Jain University</span>
+                </span>
+              </div>
+
+              <p class="hero-greeting">Hi, I'm</p>
+              <h1 class="hero-name">Godlin R E</h1>
+              
+              <div class="hero-title-headline">
+                <span class="gradient-text" id="dynamicHeroText">Aspiring AI/ML Engineer</span>
+                <span class="hero-title-divider">|</span>
+                <span style="color: #94a3b8;">B.Tech CSE Student</span>
+              </div>
+
+              <p class="hero-bio">
+                Passionate about technology, artificial intelligence, machine learning, and scalable software development. Driven by curiosity to solve complex problems and build intelligent solutions that make an impact.
+              </p>
+
+              <!-- Two Action Buttons -->
+              <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary">
+                  <span>Explore My Work</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <span>Contact Me</span>
+                </a>
+              </div>
+
+              <!-- Quick Connect Strip -->
+              <div class="hero-social-strip">
+                <span class="social-strip-label">Connect:</span>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+                <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </a>
+                <a href="mailto:jazzojazzy288@gmail.com" class="social-icon-btn" title="Email Godlin">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </a>
+                <button class="social-icon-btn copy-email-trigger" title="Copy Email Address">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Right Hero Visual: Terminal Code Window -->
+            <div class="hero-visual-card">
+              <div class="terminal-window">
+                <div class="terminal-header">
+                  <div class="terminal-controls">
+                    <span class="terminal-dot dot-red"></span>
+                    <span class="terminal-dot dot-yellow"></span>
+                    <span class="terminal-dot dot-green"></span>
+                  </div>
+                  <div class="terminal-title">godlin_profile.ts</div>
+                  <div class="terminal-chip">AI // CSE-AIML</div>
+                </div>
+                <div class="terminal-body">
+                  <div class="terminal-line"><span class="code-comment">// Academic &amp; Technical Profile</span></div>
+                  <div class="terminal-line"><span class="code-keyword">const</span> <span class="code-var">developer</span> = {</div>
+                  <div class="terminal-line">&nbsp;&nbsp;<span class="code-prop">name</span>: <span class="code-string">"Godlin R E"</span>,</div>
+                  <div class="terminal-line">&nbsp;&nbsp;<span class="code-prop">role</span>: <span class="code-string">"Aspiring AI/ML Engineer"</span>,</div>
+                  <div class="terminal-line">&nbsp;&nbsp;<span class="code-prop">education</span>: {</div>
+                  <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-prop">degree</span>: <span class="code-string">"B.Tech in CSE (AIML)"</span>,</div>
+                  <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-prop">university</span>: <span class="code-string">"Jain University, Bengaluru"</span>,</div>
+                  <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-prop">year</span>: <span class="code-string">"2nd Year Undergrad"</span></div>
+                  <div class="terminal-line">&nbsp;&nbsp;},</div>
+                  <div class="terminal-line">&nbsp;&nbsp;<span class="code-prop">focusAreas</span>: [</div>
+                  <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Artificial Intelligence"</span>,</div>
+                  <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Machine Learning"</span>,</div>
+                  <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Data Structures &amp; Algorithms"</span>,</div>
+                  <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Software Development"</span></div>
+                  <div class="terminal-line">&nbsp;&nbsp;],</div>
+                  <div class="terminal-line">&nbsp;&nbsp;<span class="code-prop">status</span>: <span class="code-string">"Actively Learning &amp; Building"</span><span class="terminal-cursor"></span></div>
+                  <div class="terminal-line">};</div>
+                </div>
+              </div>
+
+              <!-- Floating Accent Badge -->
+              <div class="floating-badge badge-ai">
+                <div class="badge-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                    <path d="M12 2a10 10 0 0 1 10 10h-10V2z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="badge-text-title">AI &amp; ML Specialization</div>
+                  <div class="badge-text-sub">Jain University, Bengaluru</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           2. ABOUT ME SECTION
+           ========================================== -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// 01. Profile Summary</span>
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <p class="section-subtitle">A glimpse into my background, core motivations, and dedication to technology.</p>
+          </div>
+
+          <div class="about-grid">
+            <!-- Left: Profile & Quick Stats Card -->
+            <div class="about-visual">
+              <div class="about-card-profile">
+                <div class="profile-avatar-wrap">
+                  <img src="assets/ai-avatar.svg" alt="Godlin R E AI Graphic" class="profile-avatar-img">
+                </div>
+                <h3 class="profile-name">Godlin R E</h3>
+                <p class="profile-role-sub">B.Tech CSE-AIML Student</p>
+
+                <div class="profile-quick-stats">
+                  <div class="quick-stat-item">
+                    <span class="stat-label">Institution</span>
+                    <span class="stat-value">Jain University</span>
+                  </div>
+                  <div class="quick-stat-item">
+                    <span class="stat-label">Location</span>
+                    <span class="stat-value">Bengaluru, India</span>
+                  </div>
+                  <div class="quick-stat-item">
+                    <span class="stat-label">Academic Year</span>
+                    <span class="stat-value">Second Year</span>
+                  </div>
+                  <div class="quick-stat-item">
+                    <span class="stat-label">Primary Interest</span>
+                    <span class="stat-value">AI, ML &amp; Software</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Professional Narrative -->
+            <div class="about-text-content">
+              <p class="about-content-text">
+                I am a second-year Bachelor of Technology student in <strong>Computer Science and Engineering</strong> specializing in <strong>Artificial Intelligence and Machine Learning (CSE-AIML)</strong> at Jain University, Bengaluru, India.
+              </p>
+              <p class="about-content-text">
+                My passion lies at the intersection of intelligent computing, algorithmic problem solving, and modern software development. I am deeply interested in developing intelligent solutions, understanding how machine learning models learn from data, and building robust software that addresses practical challenges.
+              </p>
+              <p class="about-content-text">
+                I am continuously expanding my technical repertoire, strengthening my foundations in Data Structures and Algorithms, exploring emerging frameworks, and applying my knowledge to project-based learning. My ultimate career goal is to excel as a versatile <strong>AI/ML Engineer and Software Developer</strong>.
+              </p>
+
+              <!-- 4 Feature Pillars -->
+              <div class="about-features-grid">
+                <div class="about-feature-box">
+                  <div class="feature-icon-wrap">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="3"></circle>
+                      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    </svg>
+                  </div>
+                  <h4 class="feature-title">AI &amp; Machine Learning</h4>
+                  <p class="feature-desc">Exploring supervised learning, genetic algorithms, and intelligent systems.</p>
+                </div>
+
+                <div class="about-feature-box">
+                  <div class="feature-icon-wrap">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                  </div>
+                  <h4 class="feature-title">Software Engineering</h4>
+                  <p class="feature-desc">Writing clean, modular code with Object-Oriented principles and Git workflows.</p>
+                </div>
+
+                <div class="about-feature-box">
+                  <div class="feature-icon-wrap">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                      <polyline points="2 17 12 22 22 17"></polyline>
+                      <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                  </div>
+                  <h4 class="feature-title">Problem Solving &amp; DSA</h4>
+                  <p class="feature-desc">Strengthening analytical problem solving through Data Structures and Algorithms.</p>
+                </div>
+
+                <div class="about-feature-box">
+                  <div class="feature-icon-wrap">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                  </div>
+                  <h4 class="feature-title">Continuous Learning</h4>
+                  <p class="feature-desc">Dedicated to exploring emerging tools, systems architecture, and industry standards.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           3. EDUCATION SECTION
+           ========================================== -->
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// 02. Academic Background</span>
+            <h2 class="section-title">Formal <span class="gradient-text">Education</span></h2>
+            <p class="section-subtitle">Academic foundations fostering analytical thinking and computer science mastery.</p>
+          </div>
+
+          <div class="education-showcase">
+            <div class="edu-card-main glass-card">
+              <div class="edu-header-row">
+                <div class="edu-institution-info">
+                  <div class="edu-crest-icon">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                      <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="edu-uni-name">Jain University, Bengaluru</h3>
+                    <p class="edu-uni-location">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                      <span>Bengaluru, Karnataka, India</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="edu-time-badge">
+                  <span>Expected Graduation: 2029</span>
+                </div>
+              </div>
+
+              <div class="edu-degree-box">
+                <h4 class="edu-degree-title">Bachelor of Technology (B.Tech)</h4>
+                <span class="edu-spec-badge">Computer Science and Engineering (AI &amp; ML)</span>
+                <p class="edu-degree-desc">
+                  Enrolled in the specialized CSE-AIML curriculum combining rigorous computer science core disciplines&mdash;including algorithms, operating systems, and database architecture&mdash;with comprehensive artificial intelligence, machine learning, and computational intelligence coursework.
+                </p>
+              </div>
+
+              <div>
+                <h5 class="edu-coursework-title">Key Academic &amp; Foundational Coursework</h5>
+                <div class="edu-chips-grid">
+                  <span class="edu-chip">Data Structures &amp; Algorithms</span>
+                  <span class="edu-chip">Object-Oriented Programming (Java / C++)</span>
+                  <span class="edu-chip">Artificial Intelligence Foundations</span>
+                  <span class="edu-chip">Machine Learning Concepts</span>
+                  <span class="edu-chip">Database Management Systems (SQL)</span>
+                  <span class="edu-chip">Operating Systems &amp; Memory Models</span>
+                  <span class="edu-chip">Computer Architecture</span>
+                  <span class="edu-chip">Discrete Mathematics &amp; Linear Algebra</span>
+                  <span class="edu-chip">Probability &amp; Statistics for Computing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           4. TECHNICAL SKILLS SECTION
+           (Animated cards without invented fake percentages)
+           ========================================== -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// 03. Technical Capabilities</span>
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <p class="section-subtitle">Core programming languages, machine learning concepts, and software engineering tools.</p>
+          </div>
+
+          <!-- Skills Grid -->
+          <div class="skills-grid">
+            
+            <!-- Skill: Python -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-top">
+                  <div class="skill-icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 2a5 5 0 0 0-5 5v2h10V7a5 5 0 0 0-5-5z"></path>
+                      <path d="M12 22a5 5 0 0 0 5-5v-2H7v2a5 5 0 0 0 5 5z"></path>
+                      <circle cx="9" cy="5.5" r="1" fill="currentColor"></circle>
+                      <circle cx="15" cy="18.5" r="1" fill="currentColor"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="skill-name">Python</h3>
+                    <span class="skill-category-tag">Primary / AI Core</span>
+                  </div>
+                </div>
+                <ul class="skill-details-list">
+                  <li class="skill-detail-item">AI/ML algorithms &amp; logic</li>
+                  <li class="skill-detail-item">Data manipulation &amp; scripts</li>
+                  <li class="skill-detail-item">Object-oriented modular design</li>
+                </ul>
+              </div>
+              <div class="skill-indicator-footer">
+                <span class="skill-level-pill">Core Focus</span>
+                <div class="skill-animated-bar">
+                  <div class="skill-animated-progress"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill: Java -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-top">
+                  <div class="skill-icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                      <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                      <line x1="6" y1="1" x2="6" y2="4"></line>
+                      <line x1="10" y1="1" x2="10" y2="4"></line>
+                      <line x1="14" y1="1" x2="14" y2="4"></line>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="skill-name">Java</h3>
+                    <span class="skill-category-tag">OOP &amp; Applications</span>
+                  </div>
+                </div>
+                <ul class="skill-details-list">
+                  <li class="skill-detail-item">Object-Oriented Programming</li>
+                  <li class="skill-detail-item">Collections &amp; design patterns</li>
+                  <li class="skill-detail-item">Robust exception management</li>
+                </ul>
+              </div>
+              <div class="skill-indicator-footer">
+                <span class="skill-level-pill">Foundational</span>
+                <div class="skill-animated-bar">
+                  <div class="skill-animated-progress"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill: C++ -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-top">
+                  <div class="skill-icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" y1="8" x2="12" y2="16"></line>
+                      <line x1="8" y1="12" x2="16" y2="12"></line>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="skill-name">C++</h3>
+                    <span class="skill-category-tag">Systems &amp; Problem Solving</span>
+                  </div>
+                </div>
+                <ul class="skill-details-list">
+                  <li class="skill-detail-item">Algorithmic execution speed</li>
+                  <li class="skill-detail-item">Pointers &amp; memory concepts</li>
+                  <li class="skill-detail-item">Standard Template Library (STL)</li>
+                </ul>
+              </div>
+              <div class="skill-indicator-footer">
+                <span class="skill-level-pill">Core Focus</span>
+                <div class="skill-animated-bar">
+                  <div class="skill-animated-progress"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill: SQL -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-top">
+                  <div class="skill-icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                      <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                      <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="skill-name">SQL</h3>
+                    <span class="skill-category-tag">Database Management</span>
+                  </div>
+                </div>
+                <ul class="skill-details-list">
+                  <li class="skill-detail-item">Relational schema design</li>
+                  <li class="skill-detail-item">Complex joins &amp; subqueries</li>
+                  <li class="skill-detail-item">Data retrieval &amp; aggregation</li>
+                </ul>
+              </div>
+              <div class="skill-indicator-footer">
+                <span class="skill-level-pill">Proficient</span>
+                <div class="skill-animated-bar">
+                  <div class="skill-animated-progress"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill: Data Structures and Algorithms -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-top">
+                  <div class="skill-icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="3" width="7" height="7"></rect>
+                      <rect x="14" y="3" width="7" height="7"></rect>
+                      <rect x="14" y="14" width="7" height="7"></rect>
+                      <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="skill-name">Data Structures &amp; Algorithms</h3>
+                    <span class="skill-category-tag">Computer Science Core</span>
+                  </div>
+                </div>
+                <ul class="skill-details-list">
+                  <li class="skill-detail-item">Arrays, linked lists, stacks, queues</li>
+                  <li class="skill-detail-item">Trees, binary search, graphs</li>
+                  <li class="skill-detail-item">Time &amp; space complexity (Big-O)</li>
+                </ul>
+              </div>
+              <div class="skill-indicator-footer">
+                <span class="skill-level-pill">Active Practice</span>
+                <div class="skill-animated-bar">
+                  <div class="skill-animated-progress"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill: Machine Learning -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-top">
+                  <div class="skill-icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="9"></circle>
+                      <path d="M12 3v18"></path>
+                      <path d="M3 12h18"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="skill-name">Machine Learning</h3>
+                    <span class="skill-category-tag">AI Specialization</span>
+                  </div>
+                </div>
+                <ul class="skill-details-list">
+                  <li class="skill-detail-item">Supervised &amp; unsupervised learning</li>
+                  <li class="skill-detail-item">Genetic &amp; evolutionary algorithms</li>
+                  <li class="skill-detail-item">Model evaluation &amp; metrics</li>
+                </ul>
+              </div>
+              <div class="skill-indicator-footer">
+                <span class="skill-level-pill">Core Focus</span>
+                <div class="skill-animated-bar">
+                  <div class="skill-animated-progress"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill: HTML & CSS -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-top">
+                  <div class="skill-icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                      <polyline points="2 17 12 22 22 17"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="skill-name">HTML5 &amp; CSS3</h3>
+                    <span class="skill-category-tag">Web &amp; UI Design</span>
+                  </div>
+                </div>
+                <ul class="skill-details-list">
+                  <li class="skill-detail-item">Modern Flexbox &amp; Grid layouts</li>
+                  <li class="skill-detail-item">Glassmorphism &amp; animations</li>
+                  <li class="skill-detail-item">Mobile-responsive design</li>
+                </ul>
+              </div>
+              <div class="skill-indicator-footer">
+                <span class="skill-level-pill">Proficient</span>
+                <div class="skill-animated-bar">
+                  <div class="skill-animated-progress"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill: Git & GitHub -->
+            <div class="skill-card">
+              <div>
+                <div class="skill-top">
+                  <div class="skill-icon-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="18" cy="18" r="3"></circle>
+                      <circle cx="6" cy="6" r="3"></circle>
+                      <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                      <line x1="6" y1="9" x2="6" y2="21"></line>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="skill-name">Git &amp; GitHub</h3>
+                    <span class="skill-category-tag">Version Control &amp; Workflow</span>
+                  </div>
+                </div>
+                <ul class="skill-details-list">
+                  <li class="skill-detail-item">Branching, merging &amp; rebasing</li>
+                  <li class="skill-detail-item">Collaborative pull request workflows</li>
+                  <li class="skill-detail-item">Open source repository hosting</li>
+                </ul>
+              </div>
+              <div class="skill-indicator-footer">
+                <span class="skill-level-pill">Essential</span>
+                <div class="skill-animated-bar">
+                  <div class="skill-animated-progress"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           5. PROJECTS SECTION
+           ========================================== -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// 04. Featured Creations</span>
+            <h2 class="section-title">Technical <span class="gradient-text">Projects</span></h2>
+            <p class="section-subtitle">Real-world applications, evolutionary algorithms, and software simulations.</p>
+          </div>
+
+          <!-- Project Filter Tabs -->
+          <div class="projects-filter-bar">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="ai-ml">AI &amp; Optimization</button>
+            <button class="filter-btn" data-filter="algorithms">Systems &amp; Algorithms</button>
+            <button class="filter-btn" data-filter="software">Python Applications</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+          </div>
+
+          <!-- Dynamic Projects Container (Populated via js/projects-data.js) -->
+          <div class="projects-grid" id="projectsContainer">
+            <!-- Rendered by JS -->
+          </div>
+
+          <!-- Callout Note for Adding Future Projects -->
+          <div class="projects-callout">
+            <p class="projects-callout-text">
+              &#10024; <strong>Modular Architecture:</strong> Need to add more projects? Simply append new project objects into <code style="color: var(--accent-cyan);">js/projects-data.js</code> &mdash; the portfolio automatically formats and renders them with filtering!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           6. CERTIFICATIONS SECTION
+           (Editable placeholders ready for credentials)
+           ========================================== -->
+      <section class="section" id="certifications">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// 05. Courses &amp; Credentials</span>
+            <h2 class="section-title">Certifications &amp; <span class="gradient-text">Learning</span></h2>
+            <p class="section-subtitle">Dedicated course tracks in Artificial Intelligence, Machine Learning, Python, and Software Development.</p>
+          </div>
+
+          <!-- Dynamic Certifications Container (Populated via js/certifications-data.js) -->
+          <div class="certs-grid" id="certsContainer">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           7. MY GOALS SECTION
+           ========================================== -->
+      <section class="section" id="goals">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// 06. Career Vision</span>
+            <h2 class="section-title">My Technical <span class="gradient-text">Goals</span></h2>
+            <p class="section-subtitle">The roadmap guiding my continuous learning and aspirations in the technology domain.</p>
+          </div>
+
+          <div class="goals-grid">
+            
+            <!-- Goal 1 -->
+            <div class="goal-card">
+              <span class="goal-number">01</span>
+              <div class="goal-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                  <path d="M12 2a10 10 0 0 1 10 10h-10V2z"></path>
+                </svg>
+              </div>
+              <h3 class="goal-title">Artificial Intelligence</h3>
+              <p class="goal-desc">
+                Design and implement intelligent agents, neural networks, and generative models that solve non-trivial cognitive challenges and automate sophisticated workflows.
+              </p>
+            </div>
+
+            <!-- Goal 2 -->
+            <div class="goal-card">
+              <span class="goal-number">02</span>
+              <div class="goal-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <h3 class="goal-title">Machine Learning</h3>
+              <p class="goal-desc">
+                Master supervised, unsupervised, and reinforcement learning pipelines from feature engineering and mathematics to production model training and validation.
+              </p>
+            </div>
+
+            <!-- Goal 3 -->
+            <div class="goal-card">
+              <span class="goal-number">03</span>
+              <div class="goal-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="goal-title">Software Engineering</h3>
+              <p class="goal-desc">
+                Write maintainable, high-throughput, and clean code that adheres to industry architectural patterns, solid testing frameworks, and continuous delivery best practices.
+              </p>
+            </div>
+
+            <!-- Goal 4 -->
+            <div class="goal-card">
+              <span class="goal-number">04</span>
+              <div class="goal-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3 class="goal-title">Data Science</h3>
+              <p class="goal-desc">
+                Uncover patterns, extract statistical insights, and translate unstructured real-world datasets into predictive and actionable intelligence for decision systems.
+              </p>
+            </div>
+
+            <!-- Goal 5 -->
+            <div class="goal-card" style="grid-column: 1 / -1; max-width: 700px; margin: 0 auto; width: 100%;">
+              <span class="goal-number">05</span>
+              <div class="goal-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <h3 class="goal-title">Building Real-World Technology Projects</h3>
+              <p class="goal-desc">
+                Bridge theoretical machine learning concepts and core computer science principles with practical, user-facing applications that solve tangible problems for communities and businesses.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           8. CONTACT ME SECTION
+           ========================================== -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// 07. Get In Touch</span>
+            <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+            <p class="section-subtitle">Interested in collaborating, discussing AI/ML topics, or sharing opportunities? Reach out!</p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left Info Card -->
+            <div class="contact-info-card">
+              <h3 class="contact-info-title">Let's Connect</h3>
+              <p class="contact-info-desc">
+                I am actively learning and open to student collaborations, internships, and discussions on machine learning, software development, and artificial intelligence.
+              </p>
+
+              <div class="contact-items-list">
+                <!-- Email Item -->
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="contact-item-label">Direct Email</span>
+                    <a href="mailto:jazzojazzy288@gmail.com" class="contact-item-value" style="color: var(--accent-cyan); display: block;">
+                      jazzojazzy288@gmail.com
+                    </a>
+                    <button class="copy-email-btn copy-email-trigger">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                      </svg>
+                      <span>Copy Address</span>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Location Item -->
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="contact-item-label">Location</span>
+                    <span class="contact-item-value">Bengaluru, Karnataka, India</span>
+                  </div>
+                </div>
+
+                <!-- Education Institution Item -->
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                      <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="contact-item-label">Academic Base</span>
+                    <span class="contact-item-value">Jain University &bull; B.Tech CSE (AIML)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div>
+                <span class="contact-item-label" style="display: block; margin-bottom: 0.85rem;">Profiles &amp; Repositories:</span>
+                <div style="display: flex; gap: 0.85rem;">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </a>
+                  <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                  </a>
+                  <a href="mailto:jazzojazzy288@gmail.com" class="social-icon-btn" title="Email Direct">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Interactive Contact Form -->
+            <div class="contact-form-card">
+              <form id="contactForm" novalidate>
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Your Name *</label>
+                  <input type="text" id="contactName" class="form-control" placeholder="e.g. Alex Johnson" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Email Address *</label>
+                  <input type="email" id="contactEmail" class="form-control" placeholder="name@domain.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactSubject" class="form-label">Subject</label>
+                  <input type="text" id="contactSubject" class="form-control" placeholder="AI Collaboration / Tech Opportunity">
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage" class="form-label">Message *</label>
+                  <textarea id="contactMessage" class="form-control" placeholder="Hello Godlin, I would like to discuss..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <span>Send Message</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==========================================
+         SITE FOOTER
+         ========================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <div class="nav-brand">
+              <div class="nav-logo-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <span class="nav-brand-text">Godlin R E</span>
+            </div>
+            <p class="footer-brand-bio">
+              Aspiring AI/ML Engineer and 2nd-year B.Tech CSE (AIML) student at Jain University, Bengaluru. Driven to build intelligent, scalable systems.
+            </p>
+          </div>
+
+          <ul class="footer-nav">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#education" class="footer-link">Education</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#certifications" class="footer-link">Certifications</a></li>
+            <li><a href="#goals" class="footer-link">Goals</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            &copy; <span id="currentYear">2026</span> Godlin R E. All rights reserved.
+          </div>
+          <div>
+            Designed with <span class="footer-heart">&hearts;</span> using Modern CSS &amp; Clean Architecture
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- End page-wrapper -->
+
+  <!-- ==========================================
+       MODAL OVERLAY (FOR PROJECTS & RESUME)
+       ========================================== -->
+  <div class="modal-overlay" id="projectModalOverlay" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="modalDynamicContent">
+        <!-- Injected dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top of page">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- JavaScript Scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/projects-data.js"></script>
+  <script src="js/certifications-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Set dynamic copyright year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

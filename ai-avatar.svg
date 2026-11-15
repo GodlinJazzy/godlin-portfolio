@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090a16" />
+    </linearGradient>
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="sphereGrad" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.6" />
+      <stop offset="80%" stop-color="#c084fc" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="500" height="500" rx="36" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="496" height="496" rx="34" fill="none" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1.5" />
+
+  <!-- Ambient background glow circles -->
+  <circle cx="250" cy="250" r="160" fill="#6366f1" opacity="0.12" filter="url(#softGlow)" />
+  <circle cx="280" cy="220" r="120" fill="#a855f7" opacity="0.15" filter="url(#softGlow)" />
+
+  <!-- Orbital Rings -->
+  <ellipse cx="250" cy="250" rx="180" ry="60" fill="none" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1.5" stroke-dasharray="6,8" transform="rotate(-25 250 250)" />
+  <ellipse cx="250" cy="250" rx="180" ry="70" fill="none" stroke="rgba(168, 85, 247, 0.35)" stroke-width="1.5" stroke-dasharray="4,6" transform="rotate(35 250 250)" />
+  <ellipse cx="250" cy="250" rx="170" ry="170" fill="none" stroke="rgba(6, 182, 212, 0.2)" stroke-width="1" stroke-dasharray="2,8" />
+
+  <!-- Center Holographic Neural Sphere -->
+  <circle cx="250" cy="250" r="110" fill="url(#sphereGrad)" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1.5" />
+
+  <!-- Internal Neural Net Nodes & Synaptic Links -->
+  <g stroke="rgba(255, 255, 255, 0.35)" stroke-width="1.2">
+    <line x1="200" y1="210" x2="250" y2="180" />
+    <line x1="250" y1="180" x2="300" y2="210" />
+    <line x1="300" y1="210" x2="280" y2="280" />
+    <line x1="280" y1="280" x2="220" y2="280" />
+    <line x1="220" y1="280" x2="200" y2="210" />
+    <line x1="250" y1="180" x2="250" y2="250" />
+    <line x1="200" y1="210" x2="250" y2="250" />
+    <line x1="300" y1="210" x2="250" y2="250" />
+    <line x1="220" y1="280" x2="250" y2="250" />
+    <line x1="280" y1="280" x2="250" y2="250" />
+  </g>
+
+  <!-- Glowing Nodes -->
+  <circle cx="200" cy="210" r="6" fill="#38bdf8" filter="url(#softGlow)" />
+  <circle cx="250" cy="180" r="7" fill="#818cf8" filter="url(#softGlow)" />
+  <circle cx="300" cy="210" r="6" fill="#c084fc" filter="url(#softGlow)" />
+  <circle cx="280" cy="280" r="6" fill="#f472b6" filter="url(#softGlow)" />
+  <circle cx="220" cy="280" r="6" fill="#34d399" filter="url(#softGlow)" />
+  <circle cx="250" cy="250" r="9" fill="#ffffff" filter="url(#softGlow)" />
+
+  <!-- Orbiting Data Particles -->
+  <circle cx="95" cy="205" r="4" fill="#06b6d4" />
+  <circle cx="405" cy="295" r="4.5" fill="#a855f7" />
+  <circle cx="150" cy="360" r="3" fill="#6366f1" />
+  <circle cx="370" cy="140" r="3.5" fill="#38bdf8" />
+
+  <!-- Code / Tech Floating Tags -->
+  <rect x="50" y="70" width="120" height="34" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(99, 102, 241, 0.5)" stroke-width="1" />
+  <text x="110" y="92" fill="#a5b4fc" font-family="Courier New, monospace" font-size="13" font-weight="bold" text-anchor="middle">AI &amp; ML CORE</text>
+
+  <rect x="330" y="390" width="120" height="34" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(168, 85, 247, 0.5)" stroke-width="1" />
+  <text x="390" y="412" fill="#d8b4fe" font-family="Courier New, monospace" font-size="13" font-weight="bold" text-anchor="middle">PYTHON &amp; DSA</text>
+</svg>
